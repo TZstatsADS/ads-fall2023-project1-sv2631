@@ -3,6 +3,7 @@
 ## Project 1: What made you happy today?
 
 ![image](figs/friends.JPG = 300x)
+<img src="figs/friends.JPG" alt="friends" width="200"/>
 
 ### [Project Description](doc/)
 This is the first and only *individual* (as opposed to *team*) this semester. 

@@ -120,9 +120,9 @@ write_csv(hm_data, "../output/processed_moments.csv")
  
 <span style="font-weight:bold;">Lets get started with the analysis!!</span>
   
-I started with the original data 'cleaned_hm.csv' that needed to be cleaned and processed before it is ready for analysis. Then, I applied techniques such as lower casing letters, removing punctuations and extra spaces, stemming the words, and making id for each happy moment. This final data  'processed_moments.csv' is stored in the output folder.
+I started with the original data 'cleaned_hm.csv' (from https://github.com/megagonlabs/HappyDB/blob/master/happydb/data/cleaned_hm.csv) that needed to be cleaned and processed before it is ready for analysis. Then, I applied techniques such as lower casing letters, removing punctuations and extra spaces, stemming the words, and making id for each happy moment. This final data  'processed_moments.csv' is stored in the output folder.
 
-I now join this processed text with the demographic data 'demographic.csv' and select a subset of the combined data satisfying specific row conditions.
+I now join this processed text with the demographic data 'demographic.csv' (from https://github.com/megagonlabs/HappyDB/blob/master/happydb/data/demographic.csv) and select a subset of the combined data satisfying specific row conditions.
  
 ```{r load data, message=FALSE, warning=FALSE, echo=FALSE}
 hm_data <- read_csv("../output/processed_moments.csv")
